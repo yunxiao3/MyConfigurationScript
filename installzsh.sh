@@ -2,6 +2,7 @@
 sudo apt-get install git
 sudo apt-get install curl
 sudo apt-get install zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+##  vim ~/.zshrc 将主题换成 ZSH_THEME="clean"
+sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"
 chsh -s /bin/zsh
 
